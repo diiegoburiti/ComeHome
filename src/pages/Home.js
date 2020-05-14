@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import Services from "../components/Services";
+import FeaturedRooms from "../components/FeaturedRooms";
 export default function Home() {
   return (
     //<> pode ser usado pra substituir o termo : React.Fragment
@@ -15,6 +16,7 @@ export default function Home() {
         </Banner>
       </Hero>
       <Services />
+      <FeaturedRooms />
     </>
   );
 }
