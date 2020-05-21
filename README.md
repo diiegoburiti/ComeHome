@@ -1,3 +1,7 @@
+## how it looks like
+
+[LIVE DEMO](https://comehome.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
