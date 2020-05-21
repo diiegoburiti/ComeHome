@@ -67,7 +67,7 @@ export default function RoomsFilter({ rooms }) {
             className="form-control"
             value={capacity}
           >
-            {types}
+            {people}
           </select>
         </div>
         {/* end guests*/}
