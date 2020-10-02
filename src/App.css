@@ -200,12 +200,17 @@ h6 {
 .banner h1 {
   font-size: 2.5rem;
 }
-.banner div {
+
+.banner h1::after {
+  content: "";
+  display: block;
   width: 10rem;
   height: 5px;
   background: var(--primaryColor);
-  margin: 1.7rem auto;
+  margin: 0.8rem auto;
+  border-radius: 1px;
 }
+
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -246,6 +251,7 @@ h6 {
   height: 3px;
   background: var(--mainBlack);
   margin: 0.5rem auto;
+  border-radius: 3px;
 }
 
 .section-title div {
