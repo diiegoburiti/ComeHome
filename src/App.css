@@ -119,15 +119,33 @@ h6 {
 }
 .nav-links a {
   display: block;
-  text-decoration: none;
   padding: 1rem 0;
+  text-decoration: none;
   color: var(--mainBlack);
   transition: var(--mainTransition);
   text-align: center;
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
+  position: relative;
 }
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primaryColor);
+  bottom: -4px;
+  left: 0px;
+  transform: scaleX(0);
+  transition: transform 0.3s ease 0s;
+}
+
+.nav-links a:hover::before {
+  transform: scaleX(1);
+}
+
 .nav-links a:hover {
   color: var(--primaryColor);
 }

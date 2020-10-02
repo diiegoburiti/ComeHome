@@ -17,7 +17,11 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              <img src={logo} alt="Como home"></img>
+              <img
+                src={logo}
+                alt="Como home logo"
+                title={"Como home logo"}
+              ></img>
             </Link>
             <botton
               type="button"
