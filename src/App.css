@@ -238,6 +238,16 @@ h6 {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
+
+.section-title h4::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: var(--mainBlack);
+  margin: 0.5rem auto;
+}
+
 .section-title div {
   width: 5rem;
   height: 5px;
